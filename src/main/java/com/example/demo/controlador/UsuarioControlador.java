@@ -36,9 +36,6 @@ public class UsuarioControlador {
 		return "Reserva Cancelada";
 	}
 	
-	@GetMapping("/consultar")
-	public List<Usuario>verTodosUsuarios(){
-		return repositorio.findAll();
-	}
+	
 	
 }
